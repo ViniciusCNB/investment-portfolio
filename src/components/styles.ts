@@ -6,10 +6,11 @@ export const styles = {
   },
   topBar: {
     backgroundColor: "rgb(235, 235, 235)",
+    display: "flex",
     width: "100%",
     height: "150px",
     margin: "0px",
-    textAlign: "center",
+    textAlign: "left",
     alignItems: "center",
     color: "black",
     borderRadius: "0%",
@@ -17,8 +18,9 @@ export const styles = {
   },
   topBarButton: {
     marginLeft: "20px",
-    color: "darkblue",
-    fontWeight: "bold"
+    color: "black",
+    fontWeight: "bold",
+    fontSize: "20px",
   },
   topBarButtonContainer: {
     position: "absolute",
