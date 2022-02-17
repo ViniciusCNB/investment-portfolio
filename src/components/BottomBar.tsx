@@ -7,7 +7,7 @@ const BottomBar = () => {
     <React.Fragment>
       <Paper sx={{ ...styles.bottomBar }}>
         <Box sx={{ ...styles.bottomBarText }}>
-          @VCNBorges
+          @vinicius_cnborges
         </Box>
       </Paper>
     </React.Fragment>
