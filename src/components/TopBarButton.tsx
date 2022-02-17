@@ -4,13 +4,14 @@ import { styles } from "./styles";
 
 interface TopBarButtonProps {
   name: string;
+  handleClick: () => void;
 }
 
-const TopBarButton: FC<TopBarButtonProps> = ({ name }) => {
+const TopBarButton: FC<TopBarButtonProps> = ({ name, handleClick }) => {
   return (
     <React.Fragment>
       <div>
-        <Button sx={{ ...styles.topBarButton }}>
+        <Button sx={{ ...styles.topBarButton }} onClick={handleClick}>
           {name}
         </Button>
       </div>

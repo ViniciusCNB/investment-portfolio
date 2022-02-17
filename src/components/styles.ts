@@ -22,6 +22,11 @@ export const styles = {
     fontWeight: "bold",
     fontSize: "25px",
     fontFamily: "Oswald, sans-serif",
+    "&:hover": {
+      color: "rgb(130, 130, 130)",
+      backgroundColor: "rgb(235, 235, 235)",
+      // border: "2px solid rgb(130, 130, 130)"
+    },
   },
   topBarButtonContainer: {
     position: "absolute",
@@ -38,11 +43,17 @@ export const styles = {
     flexDirection: "row",
     justifyContent: "center",
   },
-  homePageContainer: {
+  pageContainer: {
     margin: "25px",
     width: "100%",
   },
   homePagePaper: {
+    backgroundColor: "rgb(235, 235, 235)",
+    padding: "25px",
+    textAlign: "center",
+    height: "fit-content",
+  },
+  managerPagePaper: {
     backgroundColor: "rgb(235, 235, 235)",
     padding: "25px",
     textAlign: "center",
