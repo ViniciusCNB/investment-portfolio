@@ -25,7 +25,9 @@ export const styles = {
     "&:hover": {
       color: "rgb(130, 130, 130)",
       backgroundColor: "rgb(235, 235, 235)",
-      // border: "2px solid rgb(130, 130, 130)"
+      outline: "2px solid rgb(130, 130, 130)",
+      outlineOffset: "-2px",
+      transition: "color 0ms",
     },
   },
   topBarButtonContainer: {
@@ -39,6 +41,7 @@ export const styles = {
   bottomContainer: {
     width: "100%",
     height: "fit-content",
+    minHeight: "500px",
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
@@ -50,8 +53,34 @@ export const styles = {
   homePagePaper: {
     backgroundColor: "rgb(235, 235, 235)",
     padding: "25px",
-    textAlign: "center",
+    textAlign: "left",
     height: "fit-content",
+  },
+  homePageTopSide: {
+    display: "flex",
+    flexDirection: "row",
+    fontFamily: "Oswald, sans-serif",
+    margin: "20px",
+  },
+  homePageBox: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: "27px",
+    width: "100px",
+    textAlign: "center",
+    fontWeight: "bold",
+    marginLeft: "90px"
+  },
+  homePageText: {
+    width: "500px",
+    fontSize: "50px",
+  },
+  homePageFuncionalities: {
+    display: "flex",
+    flexDirection: "row",
+    marginLeft: "120px"
   },
   managerPagePaper: {
     backgroundColor: "rgb(235, 235, 235)",
@@ -73,6 +102,8 @@ export const styles = {
     alignItems: "center",
   },
   bottomBarText: {
+    display: "flex",
+    alignItems: "center",
     fontSize: "25px",
     paddingLeft: "20px",
     fontFamily: "Oswald, sans-serif",
