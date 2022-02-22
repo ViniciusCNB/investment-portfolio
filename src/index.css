@@ -65,7 +65,12 @@
   margin-top: 3px;
 }
 
-.homePageImage {
+.homePageTopSideImage {
   width: 90px;
   height: 90px;
+}
+
+.homePageDownSideImage {
+  width: 135px;
+  height: 135px;
 }

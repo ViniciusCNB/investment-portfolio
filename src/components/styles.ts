@@ -53,16 +53,28 @@ export const styles = {
   homePagePaper: {
     backgroundColor: "rgb(235, 235, 235)",
     padding: "25px",
-    textAlign: "left",
+    textAlign: "right",
     height: "fit-content",
+    display: "flex",
+    flexDirection: "column",
   },
   homePageTopSide: {
     display: "flex",
     flexDirection: "row",
     fontFamily: "Oswald, sans-serif",
-    margin: "20px",
+    margin: "20px auto",
   },
-  homePageBox: {
+  homePageDownSide: {
+    position: "relative",
+    margin: "20px auto",
+    marginBottom: "50px",
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "right",
+    alignItems: "right",
+    fontFamily: "Oswald, sans-serif",
+  },
+  homePageTopSideBox: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
@@ -71,16 +83,44 @@ export const styles = {
     width: "100px",
     textAlign: "center",
     fontWeight: "bold",
-    marginLeft: "90px"
+    marginLeft: "85px",
   },
-  homePageText: {
+  homePageDownSideBox: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    fontSize: "27px",
+    width: "135px",
+    textAlign: "center",
+    fontWeight: "bold",
+    marginLeft: "85px",
+  },
+  homePageTopSideText: {
     width: "500px",
     fontSize: "50px",
+    marginLeft: "0px",
   },
-  homePageFuncionalities: {
+  homePageTopSideFuncionalities: {
     display: "flex",
     flexDirection: "row",
-    marginLeft: "120px"
+    marginLeft: "30px",
+  },
+  homePageDownSideFuncionalities: {
+    display: "flex",
+    flexDirection: "row",
+    marginRight: "100px",
+  },
+  homePageDivider: {
+    margin: "70px auto",
+    width: "90%",
+    height: "2px",
+    background: "black",
+  },
+  homePageDownSideText: {
+    textAlign: "left",
+    fontSize: "35px",
+    width: "450px",
   },
   managerPagePaper: {
     backgroundColor: "rgb(235, 235, 235)",
